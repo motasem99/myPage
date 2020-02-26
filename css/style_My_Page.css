@@ -1,0 +1,486 @@
+/* start main rules */
+body {
+  height: 4000px;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* end main rules */
+
+/* start header */
+
+.header .slider {
+  background-color: #eee;
+  height: 600px;
+}
+.header .slider .intro {
+  background-image: url('mini_hop.jpg');
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 360px;
+  text-align: center;
+  color: #fff;
+}
+.header .slider .intro h2 {
+  background: #0f4d49;
+  margin: 0% auto;
+  font-size: 30px;
+  width: 400px;
+  padding: 5px 0;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid#fff;
+}
+.header .slider .intro button {
+  background: #0f4d49;
+  color: #fff;
+  width: 140px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  font-weight: bold;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.header .navbar {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+}
+.header .navbar h2 {
+  float: left;
+  text-transform: uppercase;
+}
+.header .navbar h2 span {
+  color: #2ecc71;
+}
+.header .navbar ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+}
+.header .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+  color: #30b576;
+}
+
+/* end header */
+
+/* start features */
+
+.features {
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 130px;
+}
+.features .feat {
+  float: left;
+  width: 33.33333%;
+  height: 150px;
+}
+.features .feat h2 {
+  color: #555;
+}
+.features .feat p {
+  line-height: 1.6;
+  color: #888;
+  text-align: justify;
+  padding: 0px 20px 0px 0px;
+}
+
+/* end features */
+
+/* start about me */
+
+.about_me {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  height: 628px;
+}
+.about_me .image {
+  float: left;
+  width: 40%;
+}
+.about_me .image img {
+  width: 100%;
+}
+.about_me .info {
+  float: left;
+  width: 60%;
+}
+.about_me .info h2 {
+  margin: 25px 0px 20px 40px;
+  color: #555;
+}
+.about_me .info > p {
+  margin: 0 0 10px 40px;
+  line-height: 1.7;
+  color: #666;
+}
+
+.about_me .info > p:last-of-type {
+  margin-top: 25px;
+}
+.about_me .info p {
+  line-height: 1.6;
+  color: #666;
+}
+.about_me .info .hobbies {
+  overflow: hidden;
+  margin: 15px 0 0 40px;
+}
+.about_me .info .hobbies h3 {
+  color: #555;
+}
+.about_me .info .hobbies .content {
+  float: left;
+  width: 50%;
+  min-height: 150px;
+  overflow: hidden;
+}
+.about_me .info .hobbies .content h3 {
+  color: #555;
+}
+.about_me .info .hobbies .content .icon {
+  float: left;
+  width: 12%;
+  margin-right: 5%;
+}
+.about_me .info .hobbies .content .icon img {
+  max-width: 100%;
+  margin: 40px 10px 0 0;
+}
+.about_me .info .hobbies .content .text {
+  float: left;
+  width: 83%;
+}
+.about_me .info .hobbies .content .text p {
+  margin-top: 0px;
+}
+.about_me .info .hobbies .content .text h3 {
+  margin-bottom: 5px;
+}
+/* end about me */
+
+/* start my skills */
+
+.my_skills {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.my_skills .skills,
+.my_skills .progress {
+  width: 50%;
+  float: left;
+}
+.my_skills .skills h2 {
+  margin: 25px 0 20px 40px;
+  color: #666;
+}
+.my_skills .skills p {
+  margin: 0 0 10px 40px;
+  line-height: 1.6;
+  color: #666;
+}
+.my_skills .skills p:last-of-type {
+  margin-top: 25px;
+}
+.my_skills .skills button {
+  /* باقي خواص الزر تحت في اخر الملف */
+  margin-top: 20px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.my_skills .progress .technique {
+  margin-left: 50px;
+}
+.my_skills .progress .technique h3 {
+  color: #555;
+}
+.my_skills .progress .technique div {
+  background-color: #f2f2f2;
+  height: 25px;
+}
+.my_skills .progress .technique div span {
+  background-color: #2dcc70;
+  height: 25px;
+  display: block;
+  line-height: 25px;
+  text-align: right;
+  color: #fff;
+  font-weight: bold;
+}
+/* end my skills */
+
+/* start resume */
+
+.resume {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.resume h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #666;
+}
+.resume p {
+  line-height: 1.6;
+  color: #666;
+  padding: 0 80px;
+}
+.resume button {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* end resume */
+
+/* start my education */
+
+.my_education {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.my_education hr {
+  margin: 20px 0;
+  background-color: #999;
+  height: 1px;
+  border: 0;
+}
+.my_education .main {
+  width: 50%;
+  margin-right: 5%;
+  float: left;
+}
+.my_education .main h2 {
+  margin: 25px 0 20px 40px;
+  color: #666;
+}
+.my_education .main p {
+  margin: 0 0 10px 40px;
+  line-height: 1.6;
+  color: #666;
+}
+.my_education .main p:last-of-type {
+  margin-top: 25px;
+}
+.my_education .exp {
+  width: 45%;
+  float: left;
+}
+.my_education .exp h3 {
+  margin-top: 80px;
+  margin-bottom: 8px;
+}
+.my_education .exp span {
+  display: block;
+  margin-bottom: 8px;
+}
+.my_education .exp span:first-of-type {
+  color: #999;
+}
+.my_education .exp span:last-of-type {
+  background-color: #2dcc70;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 10px;
+}
+
+.my_education .exp p {
+  line-height: 1.7;
+  color: #777;
+}
+/* end my education */
+
+/* start testimonials */
+
+.testimonials {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.testimonials q {
+  line-height: 1.6;
+  color: #777;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+.testimonials h3 {
+  color: #444;
+  margin-bottom: 30px;
+}
+.testimonials ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+.testimonials ul li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #2dcc70;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.testimonials ul li.active,
+.testimonials ul li:hover {
+  background-color: #2dcc70;
+}
+/* end testimonials */
+
+/*  start portfolio */
+
+.portfolio {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.portfolio h2 {
+  color: #777;
+}
+.portfolio p {
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 16px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.portfolio .our_work {
+  overflow: hidden;
+}
+.portfolio .our_work > div {
+  float: left;
+  width: 33.33333%;
+  margin-bottom: 10px;
+}
+.portfolio .our_work > div img {
+  width: 350px;
+  margin: 10px;
+  height: 350px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  box-shadow: 10px 10px 12px rgb(167, 164, 164);
+}
+/*  end portfolio */
+
+/* start contact me */
+
+.contact {
+  background-color: #252f31;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.contact .info {
+  width: 50%;
+  margin-right: 5%;
+  float: left;
+}
+.contact h2 {
+  color: #fff;
+  margin-left: 40px;
+}
+
+.contact p {
+  color: #6a6e71;
+  margin-left: 40px;
+  line-height: 1.6;
+}
+.contact p strong {
+  color: #d1d6da;
+}
+
+.contact .form {
+  width: 45%;
+  float: left;
+}
+.contact .form label {
+  display: block;
+  color: #d1d6da;
+  margin: 10px 0;
+}
+.contact .form input[type='text'] {
+  background-color: #4b5557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.contact .form textarea {
+  background-color: #4b5557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  height: 200px;
+}
+.contact .form input[type='submit'] {
+  background-color: #191e22;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* end contact me */
+
+/* start footer */
+
+.footer {
+  background-color: #191e22;
+  color: #6a6e71;
+  padding: 10px 0;
+  text-align: center;
+  overflow: hidden;
+}
+.footer span {
+  float: left;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  float: right;
+}
+.footer ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 8px;
+}
+/* end footer */
+
+/* start my framework */
+.my_button {
+  background: none;
+  border: 3px solid #2dcc70;
+  padding: 10px 30px;
+  color: #2dcc70;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+/* end my framework */
